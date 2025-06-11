@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from backend.dvadmin.utils.models import CoreModel
+from dvadmin.utils.models import CoreModel
 
 
 class CrudDemoModel(CoreModel):

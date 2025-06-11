@@ -1,5 +1,5 @@
-from backend.crud_demo.models import CrudDemoModel
-from backend.dvadmin.utils.serializers import CustomModelSerializer
+from crud_demo.models import CrudDemoModel
+from dvadmin.utils.serializers import CustomModelSerializer
 
 
 class CrudDemoModelSerializer(CustomModelSerializer):

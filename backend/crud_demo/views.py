@@ -1,9 +1,9 @@
 from django.shortcuts import render
 
 # Create your views here.
-from backend.crud_demo.models import CrudDemoModel
-from backend.crud_demo.serializers import CrudDemoModelSerializer, CrudDemoModelCreateUpdateSerializer
-from backend.dvadmin.utils.viewset import CustomModelViewSet
+from crud_demo.models import CrudDemoModel
+from crud_demo.serializers import CrudDemoModelSerializer, CrudDemoModelCreateUpdateSerializer
+from dvadmin.utils.viewset import CustomModelViewSet
 
 
 class CrudDemoModelViewSet(CustomModelViewSet):
