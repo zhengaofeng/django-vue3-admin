@@ -61,7 +61,10 @@ INSTALLED_APPS = [
     "channels",
     "dvadmin.system",
 ]
-
+MY_Apps = [
+    'crud_demo',
+]
+INSTALLED_APPS += MY_Apps
 MIDDLEWARE = [
     "dvadmin.utils.middleware.HealthCheckMiddleware",
     "django.middleware.security.SecurityMiddleware",
