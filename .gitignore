@@ -2,6 +2,7 @@
 /backend/.idea
 .idea
 .env
+.env*
 *.log
 .md
 .history/
